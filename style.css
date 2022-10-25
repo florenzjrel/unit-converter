@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 10px auto;
+  width: 550px;
+  background: #f4f4f4;
+}
+
+#top-card {
+  background: #6943ff;
+  padding: 20px;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 800;
+  font-size: 28px;
+  font-style: normal;
+  color: white;
+}
+
+.user-input-btn {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  width: 20%;
+}
+
+#user-input {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#user-input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#convert-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #5a537b;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#bottom-card {
+  padding: 15px;
+}
+
+.unit-conversions {
+  margin: 20px 15px;
+  background-color: white;
+  color: #5a537b;
+  padding: 20px;
+}
+
+h5,
+p {
+  margin: 0;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
